@@ -204,10 +204,10 @@ Route::prefix('detailAttendance/{detailAttendance}')->group(function () {
  **********************************************************************************************************************/
 Route::prefix('certificate')->group(function () {
 
-    Route::get('pdf-student', [CertificateController::class, 'import']);
+    Route::get('pdf-student', [CertificateController::class, 'generatePdf']);
     Route::post('pdf-studentData', [CertificateController::class, 'importData']);
     Route::get('pdf-students', [CertificateController::class, 'exportToXlsl']);
-    Route::get('pdf-instructors', [CertificateController::class, 'generatePdfInstructor']);
+    Route::post('pdf-instructors', [CertificateController::class, 'generatePdfInstructor']);
     Route::post('registration/{registration}/catalogue/{catalogue}/file/{file}', [CertificateController::class, 'downloadCertificateByParticipant']);
     Route::get('catalogue/{catalogue}/file/{file}', [CertificateController::class, 'downloadFileCertificates']);
     Route::post('catalogue/{catalogue}', [CertificateController::class, 'uploadFileCertificate']);
