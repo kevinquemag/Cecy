@@ -1,0 +1,264 @@
+{
+    "civil_status": {
+        "type": "CIVIL_STATUS",
+        "married": "MARRIED",
+        "female": "FEMALE",
+        "other": "OTHER",
+        "not_say": "NOT_SAY"
+    },
+    "ethnic_origin": {
+        "type": "ETHNIC_ORIGIN"
+    },
+    "attendances": {
+        "type": "ATTENDANCES",
+        "duration": "DURATION",
+        "registered_at": "REGISTERED_AT"
+    },
+    "entity_certification": {
+        "type": "ENTITY_CERTIFICATION",
+        "senecyt": "SENESCYT",
+        "setec": "SETECT",
+        "cecy": "CECY"
+    },
+    "formation": {
+        "type": "FORMATION",
+        "course": "COURSE",
+        "workshop": "WORKSHOP",
+        "webinar": "WEBINAR"
+    },
+    "course": {
+        "type": "COURSE",
+        "technical": "TECHNICAL",
+        "administrative": "ADMINISTRATIVE"
+    },
+    "academic_period": {
+        "type": "ACADEMIC_PERIOD",
+        "first": "FIRST",
+        "second": "SECOND",
+        "third": "THIRD",
+        "fourth": "FOURTH",
+        "fifth": "FIFTH",
+        "sixth": "SIXTH",
+        "seventh": "SEVENTH"
+    },
+    "course_state": {
+        "type": "COURSE_STATE",
+        "defeated": "DEFEATED",
+        "to_be_approved": "TO_BE_APPROVED",
+        "approved": "APPROVED",
+        "not_approved": "NOT_APPROVED"
+    },
+    "certificate": {
+        "type": "CERTIFICATE",
+        "assistance": "ASSISTANCE",
+        "approval": "APPROVAL"
+    },
+    "category": {
+        "type": "CATEGORY",
+        "technical": "TECHNICAL",
+        "administrative": "ADMINISTRATIVE",
+        "english": "ENGLISH",
+        "teaching_course": "TEACHING_COURSE",
+        "patern_tailoring": "PATERN_TAILORING",
+        "pedagogical": "PEDAGOGICAL"
+    },
+    "modality": {
+        "type": "MODALITY",
+        "presencial": "PRESENCIAL",
+        "virtual": "VIRTUAL"
+    },
+    "compliance": {
+        "type": "COMPLIANCE"
+    },
+    "control": {
+        "type": "CONTROL"
+    },
+    "means_verification": {
+        "type": "MEANS_VERIFICATION"
+    },
+    "certificate_type": {
+        "type": "CERTIFICATE_TYPE",
+        "assistance": "ASSISTANCE",
+        "approval": "APPROVAL"
+    },
+    "frequency": {
+        "type": "FREQUENCY"
+    },
+    "area": {
+        "type": "AREA",
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "E",
+        "f": "F"
+    },
+    "speciality_area": {
+        "type": "SPECIALITY_AREA",
+        "a.1": "A.1",
+        "a.2": "A.2",
+        "a.3": "A.3",
+        "a.4": "A.4",
+        "a.5": "A.5",
+        "a.6": "A.6",
+        "a.7": "A.7",
+        "b.1": "B.1",
+        "b.2": "B.2",
+        "b.3": "B.3",
+        "b.4": "B.4",
+        "b.5": "B.5"
+    },
+    "economic_sector": {
+        "type": "ECONOMIC_SECTOR",
+        "cattle_raising": "CATTLE_RAISING",
+        "industry": "INDUSTRY"
+    },
+    "planification_state": {
+        "type": "PLANIFICATION_STATE",
+        "to_be_approved": "TO_BE_APPROVED",
+        "completed": "COMPLETED",
+        "in_process": "IN_PROCESS",
+        "not_approved": "NOT_APPROVED",
+        "approved": "APPROVED"
+    },
+    "classroom": {
+        "type": "CLASSROOM",
+        "classroom_class": "CLASSROOM_CLASS",
+        "office": "OFFICE",
+        "laboratory": "LABORATORY"
+    },
+    "parallel_name": {
+        "type": "PARALLEL_NAME",
+        "a": "A",
+        "b": "B"
+    },
+    "detail_planification_state": {
+        "type": "DETAIL_PLANIFICATION_STATE",
+        "to_be_approved": "TO_BE_APPROVED",
+        "culminated": "CULMINATED",
+        "in_process": "IN_PROCESS",
+        "not_approved": "NOT_APPROVED",
+        "approved": "APPROVED"
+    },
+    "attendance": {
+        "type": "ATTENDANCE",
+        "present": "PRESENT",
+        "backwardness": "BACKWARDNESS",
+        "absent": "ABSENT"
+    },
+    "instructor_state": {
+        "type": "INSTRUCTOR_STATE",
+        "active": "ACTIVE",
+        "inactive": "INACTIVE"
+    },
+    "instructor": {
+        "type": "INSTRUCTOR",
+        "senescyt": "SENESCYT",
+        "setec": "SETECT",
+        "external": "EXTERNAL"
+    },
+    "certified_state": {
+        "type": "CERTIFIED_STATE",
+        "with_code": "WITH_CODE",
+        "generated": "GENERATED",
+        "in_process": "IN PROCESS",
+        "signed": "SIGNED"
+    },
+    "state_course": {
+        "type": "STATE_COURSE",
+        "approved": "APPROVED",
+        "not_approved": "NOT_APPROVED"
+    },
+    "registration_state": {
+        "type": "REGISTRATION_STATE",
+        "signed_up": "SIGNED_UP",
+        "registered": "REGISTERED",
+        "rectified": "RECTIFIED",
+        "cancelled": "CANCELLED",
+        "in_review": "IN_REVIEW"
+    },
+    "participant_state": {
+        "type": "PARTICIPANT_STATE",
+        "approved": "APPROVED",
+        "not_approved": "NOT_APPROVED",
+        "to_be_approved": "TO_BE_APPROVED"
+    },
+    "school_period_state": {
+        "type": "SCHOOL_PERIOD_STATE",
+        "current": "CURRENT",
+        "historical": "HISTORICAL"
+    },
+    "notification": {
+        "type": "NOTIFICATION",
+        "read": "READ",
+        "unread": "UNREAD"
+    },
+    "workday": {
+        "type": "WORKDAY",
+        "evening": "EVENING",
+        "morning": "MORNING",
+        "nocturnal": "NOCTURNAL"
+    },
+    "day": {
+        "type": "DAY",
+        "monday_friday": "MONDAY-FRIDAY",
+        "monday_sunday": "MONDAY-SUNDAY",
+        "sundays": "SUNDAYS",
+        "saturdays": "SATURDAYS"
+    },
+    "participant": {
+        "type": "PARTICIPANT",
+        "teacher": "TEACHER",
+        "public_company": "PUBLIC_COMPANY",
+        "private_company": "PRIVATE_COMPANY",
+        "training_company": "TRAINING_COMPANY",
+        "external_student": "EXTERNAL_STUDENT",
+        "internal_student": "INTERNAL_STUDENT",
+        "senecyt_staff": "SENESCYT_STAFF",
+        "gad": "GAD"
+    },
+    "position": {
+        "type": "POSITION",
+        "rector": "RECTOR",
+        "vicerector": "VICERECTOR",
+        "representative_ocs": "REPRESENTATIVE_OCS",
+        "logistics": "LOGISTICS",
+        "cecy": "CECY"
+    },
+    "authority_state": {
+        "type": "AUTHORITY_STATE",
+        "on_vocation": "ON_VOCATION",
+        "medical_consent": "MEDICAL_CONSENT",
+        "active": "ACTIVE",
+        "inactive": "INACTIVE"
+    },
+    "level_instruction": {
+        "type": "LEVEL_INSTRUCTION",
+        "primary": "PRIMARY",
+        "secondary": "SECONDARY",
+        "undergraduate": "UNDERGRADUATE",
+        "mastery": "MASTERY",
+        "doctorate": "DOCTORATE"
+    },
+    "registration": {
+        "type": "REGISTRATION",
+        "special": "SPECIAL",
+        "ordinary": "ORDINARY",
+        "extraordinary": "EXTRAORDINARY"
+    },
+    "requirement_state": {
+        "type": "REQUIREMENT_STATE",
+        "enabled": "ENABLED",
+        "disabled": "DISABLED"
+    },
+    "period_state": {
+        "type": "PERIOD_STATE",
+        "current": "CURRENT",
+        "past": "PAST"
+    },
+    "target_groups": {
+        "type":"TARGET_GROUPS",
+        "childrens":"CHILDRENS",
+        "young":"YOUNG"
+    }
+}
